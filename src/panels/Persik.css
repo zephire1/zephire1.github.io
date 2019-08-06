@@ -1,0 +1,54 @@
+.game {
+	display: flex;
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+.game * {
+	margin: 0;
+	padding: 0;
+}
+.block {
+	width: 50%;
+	min-height: 70vh;
+	max-height: 70vh;
+	justify-content: space-between;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	border: 2px solid #333333;
+}
+.blockinfo {
+	margin-top: 25%;
+	text-align: center;
+	color: #eeeeee;
+	text-shadow: 1px 1px 5px black, 0 0 1em black;
+}
+.blockname {
+	font-size: 2.7em;
+}
+.blockviews {
+	font-size: 2em;
+}
+.blockdoptext {
+	font-size: 1.2em;
+	text-shadow: 1px 1px 3px black, 0 0 1em black;
+}
+.selectbtn {
+	width: 54%;
+	padding: 5px;
+	margin-top: 5px;
+	box-shadow: 1px 1px 10px black;
+	position: relative;
+}
+.mouth {
+	color: orange;
+}
+.status {
+	position: absolute;
+	font-size: 1.5em;
+	color: #98FF98;
+	left: 46%;
+	top: 45%;
+	text-shadow: 1px 1px 3px black, 0 0 1em black;
+}

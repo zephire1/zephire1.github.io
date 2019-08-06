@@ -1,0 +1,35 @@
+.lossescreen * {
+	margin: 0; padding: 0;
+}
+.lossescreen {
+	padding-top: 5%;
+	width: 100%;
+	min-height: 70vh;
+	max-height: 70vh;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.lossescreen h1, .lossescreen h2, .lossescreen h3 {
+	text-align: center;
+	color: #eeeeee;
+	text-shadow: 1px 1px 5px black, 0 0 1em black;
+}
+.lossescreen h1 {
+	font-size: 2.5em;
+	padding-bottom: 54px;
+}
+.lossescreen h2 {
+	font-size: 1.9em;
+}
+.lossescreen h3 {
+	font-size: 1.5em;
+}
+.btn-play {
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background: rgba(25,25,25,0.6);
+	border: 2px solid #333333;
+}
